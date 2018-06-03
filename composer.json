@@ -1,0 +1,12 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "twig/twig": "2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Util\\" : "src/util/",
+            "App\\" : "src/app"
+        }
+    }
+}

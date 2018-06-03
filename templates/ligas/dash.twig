@@ -1,0 +1,152 @@
+{{include('header.twig')}}
+
+<div class="row">
+    <p>&nbsp;</p>
+</div>
+<div class="row">
+    <div class="col-12">
+        <h1>Liga {{name}}</h1>
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <nav class="nav justify-content-center">
+            <a class="nav-link" href="#">Classificação</a>
+            <a class="nav-link" href="#">Jogos</a>
+        </nav>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <h2>Classificação</h2>
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Pos.</th>
+                    <th>Nome</th>
+                    <th>Jogos</th>
+                    <th>Vitórias</th>
+                    <th>Derrotas</th>
+                    <th>Pts. Vitória</th>
+                    <th>Pts. Derrota</th>
+                    <th>Pts. Total</th>
+                    <th>Aprov. (%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">1º</td>
+                    <td>Ricardo Vilardi</td>
+                    <td>36</td>
+                    <td>33</td>
+                    <td>3</td>
+                    <td>676</td>
+                    <td>18</td>
+                    <td>694</td>
+                    <td>92%</td>
+                </tr>
+                <tr>
+                    <td scope="row">2º</td>
+                    <td>Daumer</td>
+                    <td>42</td>
+                    <td>18</td>
+                    <td>24</td>
+                    <td>362</td>
+                    <td>153</td>
+                    <td>515</td>
+                    <td>43%</td>
+                </tr>
+                <tr>
+                    <td scope="row">3º</td>
+                    <td>Andre Bruni</td>
+                    <td>34</td>
+                    <td>21</td>
+                    <td>13</td>
+                    <td>422</td>
+                    <td>78</td>
+                    <td>500</td>
+                    <td>62%</td>
+                </tr>
+                <tr>
+                    <td scope="row">4º</td>
+                    <td>Rodrigo Capriles</td>
+                    <td>25</td>
+                    <td>18</td>
+                    <td>7</td>
+                    <td>374</td>
+                    <td>54</td>
+                    <td>428</td>
+                    <td>72%</td>
+                </tr>
+                <tr>
+                    <td scope="row">5º</td>
+                    <td>Fernando Moya</td>
+                    <td>30</td>
+                    <td>17</td>
+                    <td>13</td>
+                    <td>344</td>
+                    <td>65</td>
+                    <td>409</td>
+                    <td>52%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <h2>Jogos</h2>
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <a name="" id="" class="btn btn-outline-dark col-12" href="#" role="button">Adicionar Partida</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Ricardo Vilardi x André Idoeta</h5>
+                    <small><i class="fa fa-calendar" aria-hidden="true"></i> 01/01/18</small>
+                </div>
+                <p class="mb-1">1º set: 7 x 5 | 2º set: 6 x 3</p>
+                <small>Pts Vitória: 20 pts | Pts Derrota: 8 pts</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Bruno Serra x Paulo Solano</h5>
+                    <small><i class="fa fa-calendar" aria-hidden="true"></i> 02/01/18</small>
+                </div>
+                <p class="mb-1">1º set: 6 x 4 | 2º set: 6 x 4</p>
+                <small>Pts Vitória: 20 pts | Pts Derrota: 8 pts</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Ricardo Vilardi x Fernando Moya</h5>
+                    <small><i class="fa fa-calendar" aria-hidden="true"></i> 02/01/18</small>
+                </div>
+                <p class="mb-1">1º set: 6 x 3 | 2º set: 6 x 2</p>
+                <small>Pts Vitória: 20 pts | Pts Derrota: 5 pts</small>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <a name="" id="" class="btn btn-outline-dark col-12" href="#" role="button">Mais Partidas</a>
+    </div>
+</div>
+<div class="row">
+    <p>&nbsp;</p>
+</div>
+
+{{include('footer.twig')}}
